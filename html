@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СервисТрансАвто \ Даник-Сервис — Ремонт LCV в Люберцах</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&q=80&w=1920'); background-size: cover; background-position: center; }
+        .accent-color { color: #fbbf24; }
+        .bg-accent { background-color: #fbbf24; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="font-bold text-xl tracking-tight">СервисТрансАвто <span class="text-gray-400">\</span> Даник-Сервис</div>
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="#about" class="hover:text-amber-600 transition">О сервисе</a>
+                <a href="#services" class="hover:text-amber-600 transition">Услуги</a>
+                <a href="#contacts" class="hover:text-amber-600 transition">Контакты</a>
+            </div>
+            <a href="tel:89995990003" class="font-bold text-lg text-amber-600">8 999 599 00 03</a>
+        </div>
+    </nav>
+
+    <section class="hero-gradient text-white py-20 px-4">
+        <div class="container mx-auto max-w-5xl">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Автосервис коммерческого транспорта в Люберцах
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-200">
+                Ремонт, ТО и сложные работы по ДВС, ГБЦ, маховикам и карданным валам. Быстро возвращаем технику в строй.
+            </p>
+            <div class="grid md:grid-cols-3 gap-6 mb-10">
+                <div class="flex items-center space-x-3 bg-white/10 p-4 rounded-lg">
+                    <i class="fas fa-truck-moving accent-color text-2xl"></i>
+                    <span>Специализация на LCV</span>
+                </div>
+                <div class="flex items-center space-x-3 bg-white/10 p-4 rounded-lg">
+                    <i class="fas fa-tools accent-color text-2xl"></i>
+                    <span>Свой мехучасток (ГБЦ, Карданы)</span>
+                </div>
+                <div class="flex items-center space-x-3 bg-white/10 p-4 rounded-lg">
+                    <i class="fas fa-file-invoice-dollar accent-color text-2xl"></i>
+                    <span>Честная дефектовка</span>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row gap-4">
+                <a href="#form" class="bg-accent text-black px-8 py-4 rounded-full font-bold text-center hover:bg-yellow-500 transition shadow-lg">Записаться на ремонт</a>
+                <a href="https://wa.me/79995990003" class="bg-green-600 text-white px-8 py-4 rounded-full font-bold text-center hover:bg-green-700 transition flex items-center justify-center space-x-2">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                    <span>Рассчитать стоимость в WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 container mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-6">СервисТрансАвто \ Даник-Сервис в Люберцах</h2>
+                <p class="text-gray-600 mb-6 text-lg">
+                    Мы находимся по адресу: <strong>ул. Южная, 30 стр. 1</strong>. Специализируемся на Ford Transit, Peugeot Boxer, ГАЗель NEXT, Fiat Ducato. Совмещаем полноценный автосервис и механический участок для ремонта сложных узлов.
+                </p>
+                <ul class="space-y-4">
+                    <li class="flex items-start space-x-3">
+                        <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                        <span>Полный цикл: от диагностики до подбора запчастей.</span>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                        <span>Принимаем как машины целиком, так и отдельные агрегаты от частников и СТО.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-gray-200 h-64 rounded-2xl flex items-center justify-center text-gray-500 italic">
+                [ Место для фото вашего фасада или цеха ]
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="bg-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Что мы делаем лучше всего</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="border p-6 rounded-xl hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4 text-amber-600">
+                        <i class="fas fa-shuttle-van text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2 text-lg">Транспорт до 3.5т</h3>
+                    <p class="text-gray-500 text-sm">Ходовая, тормоза, сцепление, ДВС и навесное оборудование.</p>
+                </div>
+                <div class="border p-6 rounded-xl hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4 text-amber-600">
+                        <i class="fas fa-cogs text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2 text-lg">Восстановление ГБЦ</h3>
+                    <p class="text-gray-500 text-sm">Опрессовка, шлифовка, подготовка под сборку после перегрева.</p>
+                </div>
+                <div class="border p-6 rounded-xl hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4 text-amber-600">
+                        <i class="fas fa-circle-notch text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2 text-lg">Маховики</h3>
+                    <p class="text-gray-500 text-sm">Восстановление поверхности одномассовых маховиков и балансировка.</p>
+                </div>
+                <div class="border p-6 rounded-xl hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4 text-amber-600">
+                        <i class="fas fa-vector-square text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2 text-lg">Карданные валы</h3>
+                    <p class="text-gray-500 text-sm">Замена крестовин, правка и динамическая балансировка.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-8 md:mb-0">
+                <h2 class="text-3xl font-bold mb-4">Обслуживание парков и ИП</h2>
+                <p class="text-gray-400 max-w-xl text-lg">Помогаем удерживать технику в строю и планировать ТО так, чтобы не срывать рейсы. История ремонтов по каждой машине.</p>
+            </div>
+            <a href="tel:89995990003" class="border-2 border-amber-500 text-amber-500 px-8 py-4 rounded-full font-bold hover:bg-amber-500 hover:text-white transition">Узнать условия для бизнеса</a>
+        </div>
+    </section>
+
+    <section id="contacts" class="py-16 container mx-auto px-4">
+        <div id="form" class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+            <div class="bg-gray-100 p-8 md:w-1/2">
+                <h2 class="text-2xl font-bold mb-6">Связаться с нами</h2>
+                <div class="space-y-4">
+                    <p class="flex items-center space-x-3">
+                        <i class="fas fa-map-marker-alt text-amber-600 w-5"></i>
+                        <span>Люберцы, Южная, 30 стр. 1</span>
+                    </p>
+                    <p class="flex items-center space-x-3">
+                        <i class="fas fa-phone text-amber-600 w-5"></i>
+                        <a href="tel:89995990003" class="font-bold">8 999 599 00 03</a>
+                    </p>
+                    <div class="pt-6">
+                        <a href="#" class="inline-flex items-center space-x-2 text-blue-500 font-bold hover:underline">
+                            <i class="fab fa-telegram text-2xl"></i>
+                            <span>Группа в Telegram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <form class="p-8 md:w-1/2 space-y-4">
+                <input type="text" placeholder="Ваше имя" class="w-full p-3 border rounded-lg outline-none focus:border-amber-500">
+                <input type="tel" placeholder="Телефон" class="w-full p-3 border rounded-lg outline-none focus:border-amber-500">
+                <input type="text" placeholder="Автомобиль (модель)" class="w-full p-3 border rounded-lg outline-none focus:border-amber-500">
+                <textarea placeholder="Что нужно починить?" class="w-full p-3 border rounded-lg outline-none focus:border-amber-500 h-24"></textarea>
+                <button type="submit" class="w-full bg-black text-white py-4 rounded-lg font-bold hover:bg-gray-800 transition">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-8 border-t text-center text-gray-500">
+        &copy; 2025 СервисТрансАвто \ Даник-Сервис. Все права защищены.
+    </footer>
+
+</body>
+</html>
